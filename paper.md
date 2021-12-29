@@ -41,7 +41,7 @@ recently. Force free extrapolations are based on the assumption that there is no
 which can be expressed by $(\nabla\times\textbf{B}\times\textbf{B} = 0$ mathematically. The spatial/coronal magnetic fields can be reconstructed from this physical assumption (namely, $(\nabla\times\textbf{B}=\alpha\textbf{B}$ and $\nabla\cdot\textbf{B} = 0$), in which the observed photospheric magnetic fields are taken as a boundary conditions. There are lots of methods can be applied to extrapolate force-free field, for potential field $\alpha=0$ and linear force-free $\alpha=constant$ the extrapolation methods are well developed. For non-linear force-free extrapolation, the methods are developing with varioius algorithms under the process of development. Here, the program using Python is developed, which can obtain the potential and linear force-free field using lassical algorithms and non-linear force-free field using optimization algorithm.
 
 # Mathematics
-Green's function calculation of  \citet{1977ApJ...212..873C} are used for potential 
+Green's function calculation of  \cite{1977ApJ...212..873C} are used for potential 
 and linear force-free field extrapolation.
 
 \begin{equation}
@@ -68,7 +68,7 @@ R=\sqrt{(x-x^{'})^{2}+(y-y^{'})^{2}}.
 Where $B_{z}(x^{'},y^{'},0)$ is the light of sight magnetic field of photosphere. 
 Figures \autoref{fig:potent}  and \autoref{fig:linear}  show the field lines distribution of potential and linear force-free extrapolated 3D magnetic field using one of Low and Lou (1990) analytical solution as boundary condition.
 
-Optimization method of \citet{2000ApJ...540.1150W} are used for non-linear force-free field extrapolation.
+Optimization method of \cite{2000ApJ...540.1150W} are used for non-linear force-free field extrapolation.
 
  \begin{equation}
  \label{opt1}
