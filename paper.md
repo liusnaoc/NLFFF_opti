@@ -132,8 +132,6 @@ Support from scientific research projects of (Grant No. XDA15320301, XDA15320302
 \begin{thebibliography}{}
 
 
-
-!\bibitem[Chiu \& Hilton(1977)]{1977ApJ...212..873C}
 Chiu, Y.T. \& Hilton, H.H., 1977, ApJ., \textbf{212},873-885.
 \href{http://dx.doi.org/10.1086/155111}{DOI}.
 \href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.
