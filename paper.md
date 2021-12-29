@@ -28,7 +28,7 @@ some theoretical model. Force-free model is a common accepted one for corona mag
 extrapolation due the low $\beta$ ($\beta$ is the ratio of gas to magnetic press) plasma environment. 
 Force-free magnetic field follows:  $\nabla\times\textbf{B}=\alpha\textbf{B}$ and $\nabla\cdot\textbf{B}=0$.
 Because Python has become the most popular and open source programming language within
-the solar physics and astronomy community [@2020SoPh..295...57B].
+the solar physics and astronomy community \citep{2020SoPh..295...57B}.
 Hence,a python package performs a non-linear force-free-field (NLFFF) extrapolation of the solar magnetic field using the
 optimization method of of d of of Wheatland et al. (2000) is developed. The method optimize an objective function, L,
 which is the integral of $|\textbf{J}\times\textbf{B}|^2+|\nabla\cdot\textbf{B}|^2$ ($\textbf{J}=(\nabla\times\textbf{B})/\mu$) over a volume to be minimum. The programe can extrapolated 3D corona magnetic field in cartesian coordinate system satisfying force-free model from the observation of photosphere magnetic field as boundary. Here the force-free field can be the potential, linear and non-linear force-free field.
@@ -41,7 +41,7 @@ recently. Force free extrapolations are based on the assumption that there is no
 which can be expressed by $(\nabla\times\textbf{B}\times\textbf{B} = 0$ mathematically. The spatial/coronal magnetic fields can be reconstructed from this physical assumption (namely, $(\nabla\times\textbf{B}=\alpha\textbf{B}$ and $\nabla\cdot\textbf{B} = 0$), in which the observed photospheric magnetic fields are taken as a boundary conditions. There are lots of methods can be applied to extrapolate force-free field, for potential field $\alpha=0$ and linear force-free $\alpha=constant$ the extrapolation methods are well developed. For non-linear force-free extrapolation, the methods are developing with varioius algorithms under the process of development. Here, the program using Python is developed, which can obtain the potential and linear force-free field using lassical algorithms and non-linear force-free field using optimization algorithm.
 
 # Mathematics
-Green's function calculation of [@1977ApJ...212..873C] are used for potential 
+Green's function calculation of  \citet{1977ApJ...212..873C} are used for potential 
 and linear force-free field extrapolation.
 
 \begin{equation}
@@ -68,7 +68,7 @@ R=\sqrt{(x-x^{'})^{2}+(y-y^{'})^{2}}.
 Where $B_{z}(x^{'},y^{'},0)$ is the light of sight magnetic field of photosphere. 
 Figures \autoref{fig:potent}  and \autoref{fig:linear}  show the field lines distribution of potential and linear force-free extrapolated 3D magnetic field using one of Low and Lou (1990) analytical solution as boundary condition.
 
-Optimization method of [@2000ApJ...540.1150W] are used for non-linear force-free field extrapolation.
+Optimization method of \citet{2000ApJ...540.1150W} are used for non-linear force-free field extrapolation.
 
  \begin{equation}
  \label{opt1}
@@ -129,22 +129,25 @@ Figures \autoref{fig:nonlinear} shows the field lines distribution of extrapolat
 Support from scientific research projects of (Grant No. XDA15320301, XDA15320302, XDA15052200),
  and acknowledge contributions of NLFFF in SSW package.
 
-
 \begin{thebibliography}{}
 
 
+
+\bibitem[Chiu \& Hilton(1977)]{1977ApJ...212..873C}
 Chiu, Y.T. \& Hilton, H.H., 1977, ApJ., \textbf{212},873-885.
 \href{http://dx.doi.org/10.1086/155111}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.\\
+\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.
 
 
+\bibitem[Bobra et al. (2020)]{2020SoPh..295...57B}
 Bobra, M.G., Mumford, S.J., Hewett, R.J., Christe, S.D., Reardon, K., Savage, S., Ireland, J., Pereira, Tiago M.D., Chen, B., Prez-Suarez, D., 2020, SolPhys., \textbf{295},57.
 \href{http://dx.doi.org/10.1007/s11207-020-01622-2}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.\\
+\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.
 
 
 
 
+\bibitem[Wheatland et al.(2000)]{2000ApJ...540.1150W}
 Wheatlan, M.S., Sturrock, P.A. \& Roumeliotis, G.,
 2000, ApJ., \textbf{540}, 1150-1155.
 \href{http://dx.doi.org/10.1086/309355}{DOI}.
