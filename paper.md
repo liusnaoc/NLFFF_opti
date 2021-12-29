@@ -28,7 +28,7 @@ some theoretical model. Force-free model is a common accepted one for corona mag
 extrapolation due the low $\beta$ ($\beta$ is the ratio of gas to magnetic press) plasma environment. 
 Force-free magnetic field follows:  $\nabla\times\textbf{B}=\alpha\textbf{B}$ and $\nabla\cdot\textbf{B}=0$.
 Because Python has become the most popular and open source programming language within
-the solar physics and astronomy community \citep{2020SoPh..295...57B}.
+the solar physics and astronomy community \cite{2020SoPh..295...57B}.
 Hence,a python package performs a non-linear force-free-field (NLFFF) extrapolation of the solar magnetic field using the
 optimization method of of d of of Wheatland et al. (2000) is developed. The method optimize an objective function, L,
 which is the integral of $|\textbf{J}\times\textbf{B}|^2+|\nabla\cdot\textbf{B}|^2$ ($\textbf{J}=(\nabla\times\textbf{B})/\mu$) over a volume to be minimum. The programe can extrapolated 3D corona magnetic field in cartesian coordinate system satisfying force-free model from the observation of photosphere magnetic field as boundary. Here the force-free field can be the potential, linear and non-linear force-free field.
