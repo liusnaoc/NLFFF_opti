@@ -116,11 +116,11 @@ Figures \autoref{fig:nonlinear} shows the field lines distribution of extrapolat
 
 # Figures
 
-[Field lines distribution of potential magnetic field extrapolated, $\alpha=0$.\label{fig:potent}](potent.eps)
+![Field lines distribution of potential magnetic field extrapolated, $\alpha=0$.\label{fig:potent}](potent.eps)
 
-[Field lines distribution of linear force-free magnetic field extrapolated, $\alpha=<\alpha_{boundary}>$.\label{fig:linear}](linear.eps)
+![Field lines distribution of linear force-free magnetic field extrapolated, $\alpha=<\alpha_{boundary}>$.\label{fig:linear}](linear.eps)
 
-[Field lines distribution of non-linear force-free magnetic field extrapolated.\label{fig:nonlinear}](nonlinear.eps)
+![Field lines distribution of non-linear force-free magnetic field extrapolated.\label{fig:nonlinear}](nonlinear.eps)
 
 
 
