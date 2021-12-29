@@ -136,13 +136,13 @@ Support from scientific research projects of (Grant No. XDA15320301, XDA15320302
 
 Chiu, Y.T. \& Hilton, H.H., 1977, ApJ., \textbf{212},873-885.
 \href{http://dx.doi.org/10.1086/155111}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.\
+\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.\\
 
 
 
 Bobra, M.G., Mumford, S.J., Hewett, R.J., Christe, S.D., Reardon, K., Savage, S., Ireland, J., Pereira, Tiago M.D., Chen, B., Prez-Suarez, D., 2020, SolPhys., \textbf{295},57.
 \href{http://dx.doi.org/10.1007/s11207-020-01622-2}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.
+\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.\\
 
 
 
