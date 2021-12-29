@@ -1,5 +1,5 @@
 ---
-title: 'NLFFF: A Python package for a 3D non-linear force-free magnetic field extrapolation in cartesian coordinate system}'
+title: 'NLFFF: A Python package for a 3D non-linear force-free magnetic field extrapolation in cartesian coordinate system'
 tags:
   - Python
   - astronomy
@@ -39,6 +39,7 @@ The magnetic field in the solar active active region dominate most solar activit
 the knowledge of magnetic field is necessary to understand solar activities. Magnetic fields fill in the whole spaces above the active regions, their evolutions should be exhibited in whole spaces of active regions. However the magnetic fields with sufficient resolution and accuracy limited to be measured on the photosphere, while magnetic field measurements in chromosphere and corona are only available for a few special cases. To study the properties of spatial magnetic fields, the magnetic field extrapolations usually be employed in practice. Force free extrapolation is regarded as an classical method used to study solar spatial magnetic field
 recently. Force free extrapolations are based on the assumption that there is no Lorentz force in the whole space of active region,
 which can be expressed by $(\nabla\times\textbf{B}\times\textbf{B} = 0$ mathematically. The spatial/coronal magnetic fields can be reconstructed from this physical assumption (namely, $(\nabla\times\textbf{B}=\alpha\textbf{B}$ and $\nabla\cdot\textbf{B} = 0$), in which the observed photospheric magnetic fields are taken as a boundary conditions. There are lots of methods can be applied to extrapolate force-free field, for potential field $\alpha=0$ and linear force-free $\alpha=constant$ the extrapolation methods are well developed. For non-linear force-free extrapolation, the methods are developing with varioius algorithms under the process of development. Here, the program using Python is developed, which can obtain the potential and linear force-free field using lassical algorithms and non-linear force-free field using optimization algorithm.
+
 # Mathematics
 Green's function calculation of Chiu \& Hilton (1977) are used for potential 
 and linear force-free field extrapolation.
@@ -134,12 +135,12 @@ Support from scientific research projects of (Grant No. XDA15320301, XDA15320302
 
 Chiu, Y.T. \& Hilton, H.H., 1977, ApJ., \textbf{212},873-885.
 \href{http://dx.doi.org/10.1086/155111}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.
+\href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.\\
 
 
 Bobra, M.G., Mumford, S.J., Hewett, R.J., Christe, S.D., Reardon, K., Savage, S., Ireland, J., Pereira, Tiago M.D., Chen, B., Prez-Suarez, D., 2020, SolPhys., \textbf{295},57.
 \href{http://dx.doi.org/10.1007/s11207-020-01622-2}{DOI}.
-\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.
+\href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.\\
 
 
 
@@ -151,5 +152,5 @@ Wheatlan, M.S., Sturrock, P.A. \& Roumeliotis, G.,
 
 
 
-\end{thebibliography}{}
+\end{thebibliography}
 
