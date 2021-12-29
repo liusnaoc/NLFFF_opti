@@ -128,18 +128,17 @@ Figures \autoref{fig:nonlinear} shows the field lines distribution of extrapolat
 Support from scientific research projects of (Grant No. XDA15320301, XDA15320302, XDA15052200),
  and acknowledge contributions of NLFFF in SSW package.
 
-# References
+
 \begin{thebibliography}{}
 
 
 
-\bibitem[Chiu \& Hilton(1977)]{1977ApJ...212..873C}
+!\bibitem[Chiu \& Hilton(1977)]{1977ApJ...212..873C}
 Chiu, Y.T. \& Hilton, H.H., 1977, ApJ., \textbf{212},873-885.
 \href{http://dx.doi.org/10.1086/155111}{DOI}.
 \href{https://ui.adsabs.harvard.edu/abs/1977ApJ...212..873C}{ADS}.
 
 
-\bibitem[Bobra et al. (2020)]{2020SoPh..295...57B}
 Bobra, M.G., Mumford, S.J., Hewett, R.J., Christe, S.D., Reardon, K., Savage, S., Ireland, J., Pereira, Tiago M.D., Chen, B., Prez-Suarez, D., 2020, SolPhys., \textbf{295},57.
 \href{http://dx.doi.org/10.1007/s11207-020-01622-2}{DOI}.
 \href{https://ui.adsabs.harvard.edu/abs/2020SoPh..295...57B/}{ADS}.
@@ -147,7 +146,6 @@ Bobra, M.G., Mumford, S.J., Hewett, R.J., Christe, S.D., Reardon, K., Savage, S.
 
 
 
-\bibitem[Wheatland et al.(2000)]{2000ApJ...540.1150W}
 Wheatlan, M.S., Sturrock, P.A. \& Roumeliotis, G.,
 2000, ApJ., \textbf{540}, 1150-1155.
 \href{http://dx.doi.org/10.1086/309355}{DOI}.
